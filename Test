@@ -1,1 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>YOUR NAME | Resume</title>
+  <meta name="description" content="Entry-level IT candidate with CompTIA Tech+.">
+  <style>
+    :root {
+      --ink: #1b2430;
+      --muted: #566170;
+      --paper: #fbfcfd;
+      --line: #d5dce4;
+      --accent: #1f6f8b;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font: 17px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+    main { max-width: 46rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    h1, h2 { font-family: Georgia, "Times New Roman", serif; line-height: 1.2; }
+    h1 { font-size: 2.4rem; margin: 0 0 .25rem; }
+    h2 { font-size: 1.3rem; margin: 2.5rem 0 .75rem; padding-bottom: .35rem; border-bottom: 2px solid var(--line); }
+    h3 { font-size: 1.05rem; margin: 0; }
+    a { color: var(--accent); }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+    .tagline { color: var(--muted); font-size: 1.15rem; margin: 0 0 1rem; }
+    .contact { display: flex; flex-wrap: wrap; gap: .25rem 1.25rem; padding: 0; list-style: none; margin: 0; }
+    .item { margin-bottom: 1.25rem; }
+    .meta { color: var(--muted); font-size: .95rem; margin: 0; }
+    .skills { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0; list-style: none; margin: 0; }
+    .skills li { border: 1px solid var(--line); border-radius: 4px; padding: .15rem .65rem; background: #fff; }
+    ul.plain { margin: .4rem 0 0; padding-left: 1.2rem; }
+    @media print {
+      body { font-size: 12pt; background: #fff; }
+      main { padding: 0; }
+    }
+  </style>
+</head>
+<body>
+<main>
 
+  <!-- HEADER: replace everything in CAPS or [BRACKETS] -->
+  <header>
+    <h1>YOUR NAME</h1>
+    <p class="tagline">Entry-level IT professional | CompTIA Tech+ certified</p>
+    <ul class="contact">
+      <li><a href="mailto:YOU@EMAIL.COM">YOU@EMAIL.COM</a></li>
+      <li><a href="https://github.com/YOUR-USERNAME">github.com/YOUR-USERNAME</a></li>
+      <li><a href="https://linkedin.com/in/YOUR-PROFILE">LinkedIn</a></li>
+      <li>City, State</li>
+    </ul>
+  </header>
+
+  <!-- SUMMARY: 2 to 3 sentences. Say who you are, what you know, what you want. -->
+  <section>
+    <h2>Summary</h2>
+    <p>
+      [Motivated beginner starting a career in IT. Earned CompTIA Tech+ and building
+      hands-on skills in [troubleshooting / networking / Linux / scripting].
+      Looking for an entry-level [help desk / IT support / technician] role where I can learn and contribute.]
+    </p>
+  </section>
+
+  <!-- CERTIFICATIONS: your strongest item right now, so it goes near the top -->
+  <section>
+    <h2>Certifications</h2>
+    <div class="item">
+      <h3>CompTIA Tech+</h3>
+      <p class="meta">CompTIA | Earned [MONTH YEAR] | [Verification link or code, optional]</p>
+      <ul class="plain">
+        <li>Covers IT fundamentals: hardware, software, networking basics, security, and troubleshooting.</li>
+      </ul>
+    </div>
+    <!-- Add "In progress" certs here, for example: CompTIA A+ (expected [MONTH YEAR]) -->
+  </section>
+
+  <!-- SKILLS: only list things you can talk about in an interview -->
+  <section>
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>Windows</li>
+      <li>Basic Linux commands</li>
+      <li>Hardware troubleshooting</li>
+      <li>Networking basics (IP, DNS, Wi-Fi)</li>
+      <li>Security basics</li>
+      <li>Git and GitHub</li>
+      <li>Clear written communication</li>
+    </ul>
+  </section>
+
+  <!-- PROJECTS: this is your "experience" for now. Home labs and class work count. -->
+  <section>
+    <h2>Projects</h2>
+
+    <div class="item">
+      <h3><a href="https://github.com/YOUR-USERNAME/PROJECT-1">Home Lab: [PROJECT NAME]</a></h3>
+      <p class="meta">[Month Year] | [Tools used]</p>
+      <ul class="plain">
+        <li>[What you built or fixed, in one line.]</li>
+        <li>[What you learned or the result.]</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <h3><a href="https://github.com/YOUR-USERNAME/PROJECT-2">[PROJECT NAME]</a></h3>
+      <p class="meta">[Month Year] | [Tools used]</p>
+      <ul class="plain">
+        <li>[What you built or fixed, in one line.]</li>
+      </ul>
+    </div>
+    <!-- Idea list: build a PC, set up a home network, install Linux in a VM,
+         write a small script, document a troubleshooting guide. -->
+  </section>
+
+  <!-- EXPERIENCE: skip this section if empty. Volunteering, retail, or
+       customer service can go here because they show people skills. -->
+  <!--
+  <section>
+    <h2>Experience</h2>
+    <div class="item">
+      <h3>[Job title], [Company]</h3>
+      <p class="meta">[Month Year] to [Month Year]</p>
+      <ul class="plain"><li>[What you did and what it achieved.]</li></ul>
+    </div>
+  </section>
+  -->
+
+  <section>
+    <h2>Education</h2>
+    <div class="item">
+      <h3>[School or program name]</h3>
+      <p class="meta">[Degree, diploma, or "In progress"] | [Year]</p>
+    </div>
+  </section>
+
+</main>
+</body>
+</html>
