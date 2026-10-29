@@ -1,4 +1,6 @@
 ## Hi there 👋
+## - 🔭 I’m currently working on ezpcbuilds
+- 🌱 I’m currently learning Arc GIS
 
 <!--
 **BlazeCC0207/BlazeCC0207** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
