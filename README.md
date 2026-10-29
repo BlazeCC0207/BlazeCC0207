@@ -19,12 +19,12 @@ A passionate tech enthusiast eager to solve real-world problems. Currently build
 #### 📂 Thermal Risk Analysis of San Bernadino
 * **What it does:** Analyzes heat in San Bernadino and shows how it affects the citizens. 
 * **Tech used:** Arc GIS
-* **Key Learning:** Learned how to work with and lead a team. 
+* **Key Learning:** 
 
 #### 📂 EZPCBUILDS
 * **What it does:** A brief 1-sentence description of this second project.
-* **Tech used:** Python, Flask, SQLite
-* **Key Learning:** Gained hands-on experience building RESTful routes and managing lightweight databases.
+* **Tech used:** 
+* **Key Learning:** 
 
 ---
 
@@ -38,6 +38,6 @@ A passionate tech enthusiast eager to solve real-world problems. Currently build
 ### 📫 Connect with Me
 
 * **LinkedIn:** Not yet.
-* **Portfolio/Website:** [yourwebsite.com](https://yourwebsite.com)
+* **Portfolio/Website:** Not yet.
 * **Email:** Christopher_Soun@yahoo.com
 
